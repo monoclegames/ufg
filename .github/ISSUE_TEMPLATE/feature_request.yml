@@ -1,0 +1,17 @@
+name: Feature Request
+description: Is there anything you want in the game that is currently not implemented?
+title: "[Feature Request]: "
+labels: ["enchantment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: info
+    attributes:
+      label: Info?
+      description: You can paste or drag over a image or video
+      placeholder: Tell us what you want!
+    validations:
+      required: true
